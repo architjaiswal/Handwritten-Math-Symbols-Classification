@@ -32,6 +32,8 @@ IMPORTANT: It is trained to detect the unknown character so the label "10" will 
 - tensorflow==2.6.0
 - keras==2.6.0
 - cv2==4.5.1
+- Train file requires base libraries for jupyter notebook which can be installed by conda install -c conda-forge jupyter_contrib_nbextensions
+  
 
 ## Authors
 
