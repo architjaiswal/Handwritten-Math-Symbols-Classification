@@ -33,6 +33,7 @@ IMPORTANT: It is trained to detect the unknown character so the label "10" will 
 - keras==2.6.0
 - cv2==4.5.1
 - Train file requires base libraries for jupyter notebook which can be installed by conda install -c conda-forge jupyter_contrib_nbextensions
+- You might need to copy some .dll files from \Anaconda3\Library\bin to anaconda3/envs/<ENV_NAME>/DLLs if you are trying to install tensorflow-gpu on Windows machine to train the model using a GPU.
   
 
 ## Authors
